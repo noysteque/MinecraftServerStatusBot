@@ -1,5 +1,5 @@
 # MinecraftServerStatusBot
 
-[![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/noysteque/MinecraftServerStatusBot/releases/tag/Source)
+[![Downloads](https://img.shields.io/github/downloads/noysteque/MinecraftServerStatusBot/total.svg)](https://github.com/noysteque/MinecraftServerStatusBot/releases/tag/Source)
 [![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/noysteque/MinecraftServerStatusBot/stargazers)
 A simple minecraft server Status Bot using JDK 17 and Old JDA 4.2.0_232
