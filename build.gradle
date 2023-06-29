@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.github.johnrengelman:shadow:8.1.1'
+    }
+}
+
+plugins {
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'java'
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+
+group = 'fr.noysteque'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:4.2.0_232'
+    implementation 'org.json:json:20210307'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    implementation 'javax.json:javax.json-api:1.1'
+    implementation 'org.glassfish:javax.json:1.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar { manifest.attributes.put('Main-Class', 'fr.noysteque.MinecraftStatusBot.jar') }
