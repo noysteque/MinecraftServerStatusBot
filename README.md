@@ -1,5 +1,7 @@
 # Minecraft Server Status Bot
 
+(https://i.imgur.com/CtuatTf.png)
+
 A simple minecraft server Status Bot using JDK 17 and Old JDA 4.2.0_232
 
 Know that this bot uses the Pterodactyl User API!
